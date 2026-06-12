@@ -1,0 +1,17 @@
+flowchart TD
+    A[Inicio] --> B[Leer inicial de la pieza]
+    B --> C[Convertir a mayúsculas]
+
+    C --> D{¿Es R?}
+D -->|Sí| R1[Rey: mueve 1 casilla en cualquier dirección] --> Z[Fin]
+D -->|No| E{¿Es D?}
+E -->|Sí| R2[Dama: mueve en cualquier dirección muchas casillas] --> Z
+E -->|No| F{¿Es T?}
+F -->|Sí| R3[Torre: mueve en línea recta horizontal o vertical] --> Z
+F -->|No| G{¿Es A?}
+G -->|Sí| R4[Alfil: mueve en diagonal cualquier número de casillas] --> Z
+G -->|No| H{¿Es C?}
+H -->|Sí| R5[Caballo: se mueve en L y puede saltar piezas] --> Z
+H -->|No| I{¿Es P?}
+I -->|Sí| R6[Peón: avanza una casilla, captura en diagonal] --> Z
+I -->|No| J[Mostrar mensaje: inicial no válida] --> Z[Fin]
