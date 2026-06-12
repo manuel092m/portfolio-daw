@@ -1,0 +1,254 @@
+body{
+  font-family:'Open Sans',sans-serif;
+  background:#EAEAEA;
+  margin:0;
+}
+
+.contenedor{
+  width:960px;
+  margin:0 auto;
+  background:#fff;
+}
+
+hr{
+  border:0;
+  background:#e4e4e4;
+  height:2px;
+  margin:8px 0;
+}
+
+.barra-superior{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:6px 10px;
+  font-size:13px;
+  color:#333333;
+}
+
+.barra-superior a{
+  color:#333333;
+  text-decoration:none;
+}
+
+.separador{
+  margin:0 6px;
+  color:#333333;
+}
+
+.barra-der{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.icono{
+  width:14px;
+  height:14px;
+}
+
+.telefono{
+  color:#009B77;
+  font-weight:bold;
+}
+
+.cabecera{
+  display:flex;
+  align-items:flex-start;
+  padding:6px 10px;
+  gap:10px;
+}
+
+.cab-izq{
+  width:260px;
+}
+
+.logo{
+  height:45px;
+}
+
+.cab-centro{
+  flex:1;
+  text-align:left;
+  padding-top:2px;
+}
+
+.envio{
+  height:45px;
+}
+
+.cab-der{
+  width:220px;
+  display:flex;
+  justify-content:flex-end;
+}
+
+.caja-cesta{
+  width:170px;
+  border-top:1px solid #e4e4e4;
+  border-left:1px solid #e4e4e4;
+  border-right:1px solid #e4e4e4;
+}
+
+.cesta-fila{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:6px 10px;
+}
+
+.texto-cesta,.numero-cesta{
+  color:#333333;
+  font-weight:700;
+  font-size:1.2em;
+}
+
+.caja-cesta:hover .texto-cesta,
+.caja-cesta:hover .numero-cesta{
+  color:#009B77;
+}
+
+.icono-cesta{
+  height:18px;
+}
+
+.icono-cesta:hover{
+  content:url("cart-hover.png");
+}
+
+.menu{
+  padding:8px 10px;
+  display:flex;
+  gap:22px;
+}
+
+.categoria{
+  color:#333333;
+  padding:15px 13px;
+  font-size:13px;
+}
+
+.banner{
+  width:100%;
+  display:block;
+}
+
+.tabla-marcas{
+  width:100%;
+  border-collapse:collapse;
+}
+
+.tabla-marcas td,
+.tabla-marcas{
+  border:1px dotted #CACACA;
+}
+
+.tabla-marcas img{
+  width:100%;
+  display:block;
+}
+
+.encabezado-productos{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  padding:10px 10px 0 10px;
+}
+
+.titulo-productos{
+  color:#000;
+  font-size:1.4em;
+}
+
+.ver-marcas{
+  color:#009B77;
+  font-size:1em;
+}
+
+.rejilla-productos{
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:14px;
+  padding:10px;
+}
+
+.tarjeta{
+  border:1px solid #e4e4e4;
+  background:#fff;
+  position:relative;
+  padding:10px;
+}
+
+.cinta{
+  position:absolute;
+  top:0;
+  right:0;
+  width:70px;
+}
+
+.foto{
+  height:150px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.foto img{
+  max-height:150px;
+  max-width:100%;
+  display:block;
+}
+
+.marca{
+  color:#009B77;
+  font-weight:700;
+  font-size:1.3em;
+  margin-top:6px;
+}
+
+.desc{
+  color:#333333;
+  font-size:1.1em;
+  margin-top:4px;
+}
+
+.precios{
+  margin-top:8px;
+  background:#CACACA;
+  padding:6px;
+  display:flex;
+  align-items:center;
+  gap:6px;
+  flex-wrap:wrap;
+}
+
+.antes{
+  color:#888888;
+  text-decoration:line-through;
+}
+
+.ahora{
+  color:#d50f3b;
+  font-weight:800;
+  font-size:1.4em;
+}
+
+.btn{
+  height:18px;
+  background:#CACACA;
+  padding:4px;
+}
+
+.btn-verde{
+  background:#009B77;
+}
+
+.texto-inferior{
+  padding:0 10px 10px 10px;
+  font-size:12px;
+  color:#333;
+}
+
+.pie-redes{
+  padding:10px;
+}
