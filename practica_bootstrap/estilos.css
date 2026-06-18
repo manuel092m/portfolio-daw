@@ -1,0 +1,14 @@
+body{background:#eee;}
+.barra{display:flex;justify-content:space-between;}
+.seccion{padding:40px;}
+.imagen{margin:10px 0;}
+.foto{width:150px;border-radius:50%;}
+.alineado{align-items:center;}
+.centrado{justify-content:center;margin-bottom:10px;}
+.boton{margin-top:15px;}
+.carousel img{height:400px;object-fit:cover;}
+.redes{display:flex;justify-content:center;gap:20px;padding:20px;}
+.circulo{width:60px;height:60px;border-radius:50%;color:white;display:flex;justify-content:center;align-items:center;}
+.twitter{background:#1da1f2;}
+.insta{background:purple;}
+.face{background:#3b5998;}
